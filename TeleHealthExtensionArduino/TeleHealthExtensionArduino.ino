@@ -88,7 +88,8 @@ void setup() {
   pinMode(16,INPUT);
   pinMode(17,INPUT);
   pinMode(19,INPUT);
-  pinMode(18,INPUT);
+  pinMode(BUTTON,INPUT);
+  digitalWrite(BUTTON,LOW);
 
   pinMode(LED0, OUTPUT); // onboard LED
   pinMode(LED1, OUTPUT); // onboard LED
